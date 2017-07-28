@@ -212,7 +212,7 @@
 		height: 700px;
 	}
 	.product-box {
-		height: 600px;
+		height: 650px;
 	}
 	article.products {
 		padding: 20px 0 40px 0;
@@ -543,7 +543,7 @@
 
 /* Media Query - Laptop */
 
-@media screen and (min-width:1025px) and (max-width:1365px) {
+@media screen and (min-width:1025px) and (max-width:1364px) {
 	/* -- laptop columns -- */
 	.col-dk-1 {
 		width: 8.33%;
@@ -684,7 +684,7 @@
 
 /* Media Query - Mid Laptop/Desktop */
 
-@media screen and (min-width:1366px) and (max-width:1780px) {
+@media screen and (min-width:1365px) and (max-width:1780px) {
 	/* -- Mid Laptop/Desktop fonts -- */
 	h1 {
 		font-size: 32px;
@@ -711,8 +711,9 @@
 		padding: 70px 120px;
 	}
     .wintergreen img {
-        margin-top: 10px;
+        margin-top: 50px;
     }
+
 	/* -- Mid Laptop/Desktop home page -- */
 	/* -- Mid Laptop/Desktop about page -- */
 	.about img {
