@@ -687,11 +687,11 @@
 @media screen and (min-width:1366px) and (max-width:1780px) {
 	/* -- Mid Laptop/Desktop fonts -- */
 	h1 {
-		font-size: 34px;
+		font-size: 32px;
 		margin-top: 50px;
 	}
 	h2 {
-		font-size: 30px;
+		font-size: 28px;
 		margin-top: 22px;
 	}
 	h3 {
@@ -705,7 +705,7 @@
 	/* -- Mid Laptop/Desktop fonts -- */
 	/* -- Mid Laptop/Desktop home page -- */
 	article.products {
-		height: 640px;
+		height: 620px;
 	}
 	/* -- Mid Laptop/Desktop home page -- */
 	/* -- Mid Laptop/Desktop about page -- */
