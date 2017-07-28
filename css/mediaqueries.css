@@ -707,6 +707,10 @@
 	article.products {
 		height: 620px;
 	}
+    
+    article.left-header {
+		padding: 70px 120px;
+	}
 	/* -- Mid Laptop/Desktop home page -- */
 	/* -- Mid Laptop/Desktop about page -- */
 	.about img {
