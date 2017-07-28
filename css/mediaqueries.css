@@ -705,12 +705,14 @@
 	/* -- Mid Laptop/Desktop fonts -- */
 	/* -- Mid Laptop/Desktop home page -- */
 	article.products {
-		height: 620px;
+		height: 600px;
 	}
-    
-    article.left.header {
+    article.header {
 		padding: 70px 120px;
 	}
+    .wintergreen img {
+        margin-top: 10px;
+    }
 	/* -- Mid Laptop/Desktop home page -- */
 	/* -- Mid Laptop/Desktop about page -- */
 	.about img {
