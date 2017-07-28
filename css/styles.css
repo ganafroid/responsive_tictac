@@ -319,7 +319,7 @@ p{
 
 .green-white {
     position: relative;
-    background: #009640;
+    background: #70bc3f;
     color: #fff;
     border-radius: 20px;
     padding: 15px 25px;
@@ -353,7 +353,7 @@ p{
 }
 
 .darkgreen {
-    background: #009640;
+    background: #70bc3f;
     color: #fff;
 }
 
@@ -394,7 +394,7 @@ p{
 
 .white {
     background: #fff;
-    color: #009640;
+    color: #70bc3f;
 }
 /* End Of Colours */
 
@@ -415,7 +415,7 @@ p{
 	font-size: 15px;
 	font-family: 'Days One', sans-serif;
 	text-align: center;
-	color: #009640;
+	color: #70bc3f;
     letter-spacing: 1px;
     text-decoration: none;
     z-index: 10;
@@ -427,7 +427,7 @@ p{
 
 #totop:hover {
 	color: #fff;
-    background-color: #009640;
+    background-color: #70bc3f;
 }
 /* To Top widget */
 
@@ -488,7 +488,7 @@ ul.main-nav-dk li {
 
 ul.main-nav-dk li a {
     text-decoration: none;
-    color: #009640;
+    color: #70bc3f;
     vertical-align: center;
 }
 
