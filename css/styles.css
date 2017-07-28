@@ -572,7 +572,7 @@ article.header2 {
     max-width: 100%;
 }
 .product-box {
-        height: 835px;
+        height: auto;
         box-sizing: border-box;
         overflow: hidden;
 }
