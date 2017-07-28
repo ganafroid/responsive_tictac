@@ -237,6 +237,10 @@
 	.spearmint-about :last-child {
 		padding-bottom: 30px;
 	}
+    .instagram {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 	/* -- mobile about page -- */
 	/* -- mobile contact page -- */
 	section.contact-us input[type=submit] {
