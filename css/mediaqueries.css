@@ -1,0 +1,721 @@
+/* Media Query - Mobile */
+
+@media screen and (min-width:180px) and (max-width:768px) {
+	/* -- mobile columns -- */
+	.col-sm-1 {
+		width: 8.33%;
+		float: left;
+	}
+	.col-sm-2 {
+		width: 16.66%;
+		float: left;
+	}
+	.col-sm-3 {
+		width: 25%;
+		float: left;
+	}
+	.col-sm-4 {
+		width: 33.33%;
+		float: left;
+	}
+	.col-sm-5 {
+		width: 41.66%;
+		float: left;
+	}
+	.col-sm-6 {
+		width: 50%;
+		float: left;
+	}
+	.col-sm-7 {
+		width: 58.33%;
+		float: left;
+	}
+	.col-sm-8 {
+		width: 66.66%;
+		float: left;
+	}
+	.col-sm-9 {
+		width: 75%;
+		float: left;
+	}
+	.col-sm-10 {
+		width: 83.33%;
+		float: left;
+	}
+	.col-sm-11 {
+		width: 91.66%;
+		float: left;
+	}
+	.col-sm-12 {
+		width: 100%;
+		float: left;
+	}
+	/* -- mobile columns -- */
+	/* -- mobile nav -- */
+	nav {
+		padding: 0 30px;
+	}
+	.main-nav-dk {
+		display: none;
+	}
+	.mobile-menu {
+		display: block;
+		float: right;
+		position: relative;
+		height: 100px;
+	}
+	a.main-nav-icon-sm {
+		padding: 0 25px;
+		line-height: 110px;
+		color: #70bc3f;
+		text-decoration: none;
+		margin-bottom: 0;
+	}
+	a.main-nav-icon-sm:focus {
+		color: #8e8e8e;
+	}
+	ul.main-nav-sm {
+		position: absolute;
+		top: 100px;
+		right: 0;
+		height: 0;
+		overflow: hidden;
+		font-size: 18pt;
+		min-width: 250px;
+		list-style-type: none;
+		padding: 12px 12px;
+		margin: 0;
+		opacity: 0;
+		line-height: 42px;
+		background: #70bc3f;
+		transition: all 500ms ease;
+	}
+	ul.main-nav-sm li {
+		display: block;
+		padding: 8px 10px;
+		opacity: 0;
+		transition: all 500ms ease;
+	}
+	ul.main-nav-sm li:focus {
+		display: block;
+		padding: 8px 12px;
+	}
+	ul.main-nav-sm li a {
+		color: #fff;
+		text-decoration: none;
+	}
+	ul.main-nav-sm li a:focus {
+		color: #d3d2d2;
+	}
+	/* -- show mobile dropdown on click -- */
+	a.main-nav-icon-sm:focus+ul.main-nav-sm {
+		height: 200px;
+		opacity: 1;
+		transition: all 500ms ease;
+	}
+	a.main-nav-icon-sm:focus+ul.main-nav-sm li {
+		opacity: 1;
+		transition: all 500ms ease;
+	}
+	.dk-nav {
+		position: relative;
+	}
+	.hidden-dk {
+		display: none;
+	}
+	/* -- mobile nav -- */
+	/* -- mobile fonts -- */
+	h1 {
+		font-family: 'Days One', sans-serif;
+		font-size: 30px;
+		margin-top: 40px;
+		line-height: 1.1em;
+		letter-spacing: 1px;
+		text-align: center;
+	}
+	h2 {
+		font-family: 'Days One', sans-serif;
+		font-size: 26px;
+		margin-top: 25px;
+		line-height: 1.1em;
+		letter-spacing: 1px;
+		text-align: center;
+	}
+	h3 {
+		font-family: 'Days One', sans-serif;
+		font-size: 22px;
+		margin-top: 25px;
+		line-height: 1.1em;
+		letter-spacing: 1px;
+		text-align: center;
+	}
+	p {
+		font-family: 'Roboto', sans-serif;
+		font-size: 18px;
+		margin-top: 25px;
+		line-height: 1.4em;
+		letter-spacing: 1px;
+		text-align: center;
+	}
+	/* -- mobile fonts -- */
+	/* -- mobile features -- */
+	.left {
+		text-align: center;
+		width: 100%;
+	}
+	.left a {
+		text-align: center;
+		align-content: center;
+	}
+	/* -- mobile features -- */
+	/* -- mobile buttons -- */
+	.white-wintergreen {
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	.white-freshmint {
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	.white-orange {
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	.white-peach {
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	.white-cherry {
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	/* -- mobile buttons -- */
+	/* -- mobile general -- */
+	.mobile-hide {
+		display: none;
+	}
+	/* -- mobile general -- */
+	/* -- mobile home page -- */
+	article.header {
+		padding: 10px 30px;
+	}
+	article.header2 {
+		padding: 10px 30px;
+	}
+	article.products {
+		padding: 50px 0;
+		height: 700px;
+	}
+	.product-box {
+		height: 600px;
+	}
+	article.products {
+		padding: 20px 0 40px 0;
+	}
+	/* -- mobile home page -- */
+	/* -- mobile about page -- */
+	.about img {
+		text-align: center;
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 3px;
+		display: block;
+		padding: 0;
+		max-width: 100%;
+	}
+	.about {
+		padding: 50px 15% 0 15%;
+	}
+	.about h2 {
+		margin-top: 10px;
+	}
+	.spearmint-about :last-child {
+		padding-bottom: 30px;
+	}
+	/* -- mobile about page -- */
+	/* -- mobile contact page -- */
+	section.contact-us input[type=submit] {
+		margin: 17px 0 40px 0;
+	}
+	/* -- mobile contact page -- */
+	/* -- mobile error page -- */
+	.error {
+		margin: 60px 15px;
+	}
+	/* -- mobile error page -- */
+	/* -- mobile call to action -- */
+	section.sign-up form {
+		padding-top: 5px;
+	}
+	section.sign-up input[type=text] {
+		margin: 20px 15px 10px 15px;
+		min-width: 90%;
+		font-size: 16px;
+	}
+	section.sign-up input[type=submit] {
+		margin: 10px 15px 50px 15px;
+	}
+	/* -- mobile call to action -- */
+	/* -- mobile footer -- */
+	nav.nav-left {
+		padding: 0;
+	}
+	nav.nav-right {
+		padding: 0;
+	}
+	.logo-left {
+		margin: 0 auto;
+		text-align: center;
+		align-content: center;
+		padding-left: 0;
+	}
+	.nav-left ul {
+		font-size: 14px;
+		text-align: center;
+		margin: 0 auto;
+		padding-bottom: 0;
+	}
+	.nav-left li {
+		text-align: center;
+	}
+	.nav-left a {
+		text-decoration: none;
+		color: #8e8e8e;
+		text-align: center;
+		font-size: 16px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.nav-right ul {
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 15px;
+		padding-bottom: 0;
+	}
+	.nav-right li {
+		text-align: center;
+		font-size: 18px;
+	}
+	.nav-right a {
+		text-align: center;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	small {
+		font-size: 14px;
+		text-align: center;
+		margin-bottom: 20px;
+		display: inline-block;
+		line-height: 22px;
+	}
+	.separator {
+		border-bottom: 2px solid #70bc3f;
+	}
+	.footer-height-65 {
+		height: 65px;
+	}
+	.logo-footer {
+		float: none;
+		padding-top: 15px;
+		padding-left: 0;
+	}
+	/* -- mobile footer -- */
+}
+
+
+/* End of Media Query - Mobile */
+
+
+/* Media Query - Tablet */
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+	/* -- tablet columns -- */
+	.col-md-1 {
+		width: 8.33%;
+		float: left;
+	}
+	.col-md-2 {
+		width: 16.66%;
+		float: left;
+	}
+	.col-md-3 {
+		width: 25%;
+		float: left;
+	}
+	.col-md-4 {
+		width: 33.33%;
+		float: left;
+	}
+	.col-md-5 {
+		width: 41.66%;
+		float: left;
+	}
+	.col-md-6 {
+		width: 50%;
+		float: left;
+	}
+	.col-md-7 {
+		width: 58.33%;
+		float: left;
+	}
+	.col-md-8 {
+		width: 66.66%;
+		float: left;
+	}
+	.col-md-9 {
+		width: 75%;
+		float: left;
+	}
+	.col-md-10 {
+		width: 83.33%;
+		float: left;
+	}
+	.col-md-11 {
+		width: 91.66%;
+		float: left;
+	}
+	.col-md-12 {
+		width: 100%;
+		float: left;
+	}
+	/* -- tablet columns -- */
+	/* -- tablet fonts -- */
+	h1 {
+		font-size: 32px;
+		margin-top: 50px;
+	}
+	h2 {
+		font-size: 28px;
+		margin-top: 22px;
+	}
+	h3 {
+		font-size: 23px;
+		margin-top: 22px;
+	}
+	p {
+		font-size: 16px;
+		margin-top: 22px;
+	}
+	/* -- tablet fonts -- */
+	/* -- tablet general -- */
+	.dk-nav {
+		position: relative;
+	}
+	.hidden-dk {
+		display: none;
+	}
+	.left {
+		text-align: center;
+		width: 100%;
+	}
+	.left a {
+		text-align: center;
+		align-content: center;
+	}
+	/* -- tablet general -- */
+	/* -- tablet buttons -- */
+	.white-wintergreen {
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	.white-freshmint {
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	.white-orange {
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	.white-peach {
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	.white-cherry {
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	/* -- tablet buttons -- */
+	/* -- tablet home page -- */
+	.product-box {
+		height: 700px;
+	}
+	article.products {
+		padding: 30px 0 40px 0;
+		height: 700px;
+	}
+	.product-box {
+		height: 700px;
+	}
+	/* -- tablet home page -- */
+	/* -- tablet about page -- */
+	.med-hide {
+		display: none;
+	}
+	.about img {
+		text-align: left;
+		float: left;
+		margin-bottom: 15px;
+		display: block;
+		max-width: 100%;
+	}
+	.about {
+		text-align: left;
+		float: left;
+		padding: 30px 40px 50px 40px;
+	}
+	article.header {
+		padding: 10px 60px;
+	}
+	article.header2 {
+		padding: 10px 60px;
+	}
+	/* -- tablet about page -- */
+	/* -- tablet contact page -- */
+	section.contact-us input[type=submit] {
+		margin: 17px 0 55px 0;
+	}
+	/* -- tablet contact page -- */
+	/* -- tablet footer -- */
+	nav.nav-left {
+		padding: 0;
+	}
+	nav.nav-right {
+		padding: 0;
+	}
+	.logo-left {
+		margin-left: 0;
+		text-align: center;
+	}
+	.nav-left li {
+		font-size: 14px;
+		text-align: center;
+	}
+	.nav-left a {
+		text-decoration: none;
+		color: #8e8e8e;
+		text-align: center;
+	}
+	.nav-right li {
+		text-align: center;
+		font-size: 14px;
+	}
+	.nav-right a {
+		text-decoration: none;
+		color: #8e8e8e;
+		text-align: center;
+	}
+	small {
+		font-size: 12px;
+		color: #8e8e8e;
+		text-align: right;
+		margin-bottom: 20px;
+		display: inline-block;
+		line-height: 19px;
+	}
+	.logo-footer {
+		float: left;
+		padding-top: 15px;
+		padding-left: 0;
+	}
+	.separator {
+		border-bottom: 2px solid #70bc3f;
+	}
+	/* -- tablet footer -- */
+}
+
+
+/* End of Media Query - Tablet */
+
+
+/* Media Query - Laptop */
+
+@media screen and (min-width:1025px) and (max-width:1365px) {
+	/* -- laptop columns -- */
+	.col-dk-1 {
+		width: 8.33%;
+		float: left;
+	}
+	.col-dk-2 {
+		width: 16.66%;
+		float: left;
+	}
+	.col-dk-3 {
+		width: 25%;
+		float: left;
+	}
+	.col-dk-4 {
+		width: 33.33%;
+		float: left;
+	}
+	.col-dk-5 {
+		width: 41.66%;
+		float: left;
+	}
+	.col-dk-6 {
+		width: 50%;
+		float: left;
+	}
+	.col-dk-7 {
+		width: 58.33%;
+		float: left;
+	}
+	.col-dk-8 {
+		width: 66.66%;
+		float: left;
+	}
+	.col-dk-9 {
+		width: 75%;
+		float: left;
+	}
+	.col-dk-10 {
+		width: 83.33%;
+		float: left;
+	}
+	.col-dk-11 {
+		width: 91.66%;
+		float: left;
+	}
+	.col-dk-12 {
+		width: 100%;
+		float: left;
+	}
+	/* -- laptop columns -- */
+	/* -- laptop general -- */
+	.dk-nav {
+		position: relative;
+	}
+	.hidden-dk {
+		display: none;
+	}
+	/* -- laptop general -- */
+	/* -- laptop fonts -- */
+	h1 {
+		font-size: 35px;
+		margin-top: 50px;
+	}
+	h2 {
+		font-size: 30px;
+		margin-top: 22px;
+	}
+	h3 {
+		font-size: 24px;
+		margin-top: 22px;
+	}
+	p {
+		font-size: 16px;
+		margin-top: 22px;
+	}
+	/* -- laptop fonts -- */
+	/* -- laptop buttons -- */
+	.white-wintergreen {
+		padding: 12px 22px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	.white-freshmint {
+		padding: 12px 22px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	.white-orange {
+		padding: 12px 22px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	.white-peach {
+		padding: 12px 22px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	.white-cherry {
+		padding: 12px 22px;
+		font-size: 18px;
+		line-height: 100px;
+	}
+	/* -- laptop buttons -- */
+	/* -- laptop home page -- */
+	.product-box {
+		height: 700px;
+	}
+	article.products {
+		padding: 30px 0 40px 0;
+		height: 600px;
+	}
+	article.header {
+		padding: 40px 100px;
+	}
+	article.header2 {
+		padding: 40px 100px;
+	}
+	/* -- laptop home page -- */
+	/* -- laptop about page -- */
+	.about img {
+		text-align: left;
+		float: left;
+		margin-bottom: 15px;
+		display: block;
+		max-width: 100%;
+	}
+	.about {
+		text-align: left;
+		float: left;
+		padding: 50px 40px 50px 40px;
+	}
+	/* -- laptop about page -- */
+}
+
+
+/* End of Media Query - Laptop */
+
+
+/* Media Query - Mid Laptop/Desktop */
+
+@media screen and (min-width:1366px) and (max-width:1780px) {
+	/* -- Mid Laptop/Desktop fonts -- */
+	h1 {
+		font-size: 35px;
+		margin-top: 50px;
+	}
+	h2 {
+		font-size: 30px;
+		margin-top: 22px;
+	}
+	h3 {
+		font-size: 24px;
+		margin-top: 22px;
+	}
+	p {
+		font-size: 16px;
+		margin-top: 22px;
+	}
+	/* -- Mid Laptop/Desktop fonts -- */
+	/* -- Mid Laptop/Desktop home page -- */
+	article.products {
+		height: 650px;
+	}
+	/* -- Mid Laptop/Desktop home page -- */
+	/* -- Mid Laptop/Desktop about page -- */
+	.about img {
+		text-align: left;
+		float: left;
+		margin-bottom: 15px;
+		display: block;
+		max-width: 100%;
+	}
+	.about {
+		text-align: left;
+		float: left;
+		padding: 70px 40px 50px 40px;
+	}
+	/* -- Mid Laptop/Desktop about page -- */
+}
