@@ -713,6 +713,10 @@
     .wintergreen img {
         margin-top: 50px;
     }
+    
+    .product-box {
+        height: auto;
+}
 
 	/* -- Mid Laptop/Desktop home page -- */
 	/* -- Mid Laptop/Desktop about page -- */
