@@ -212,7 +212,7 @@
 		height: 700px;
 	}
 	.product-box {
-		height: 650px;
+		height: auto;
 	}
 	article.products {
 		padding: 20px 0 40px 0;
